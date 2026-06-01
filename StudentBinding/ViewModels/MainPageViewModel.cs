@@ -29,7 +29,7 @@ public class MainPageViewModel : ViewModelBase
         };
 
         currentStudent = firstStudent;
-        SwitchStudentCommand = new Command(SwitchStudent);
+        
     }
 
     public Student FirstStudent
@@ -62,7 +62,7 @@ public class MainPageViewModel : ViewModelBase
         }
     }
 
-    public Command SwitchStudentCommand { get; }
+    
 
     private void SwitchStudent()
     {

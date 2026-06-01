@@ -57,7 +57,7 @@
                 TextColor="MidnightBlue" />
 
             <Button
-                Command="{Binding SwitchStudentCommand}"
+                
                 Text="החלף תלמיד" />
         </VerticalStackLayout>
     </ScrollView>

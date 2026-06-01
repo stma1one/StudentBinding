@@ -1,6 +1,6 @@
 namespace StudentBinding.Models;
 
-public class Student : ObservableObject
+public  class Student : ObservableObject
 {
     private string name = string.Empty;
     private DateTime birthDate;
